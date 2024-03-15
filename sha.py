@@ -1,6 +1,6 @@
 import hashlib
 
-plaintext =  input("imput your values : ")
+plaintext =  input("input your values : ")
 #gives the address and giving the hexadecimal value
 hashObj = hashlib.sha256(plaintext.encode())
 
